@@ -126,7 +126,7 @@ class V8 < Formula
       is_component_build:           true,
       v8_use_external_startup_data: false,
       v8_enable_fuzztest:           false,
-      v8_enable_i18n_support:       true,  # enables i18n support with icu
+      v8_enable_i18n_support:       false, # enables i18n support with icu
       clang_use_chrome_plugins:     false, # disable the usage of Google's custom clang plugins
       use_custom_libcxx:            false, # uses system libc++ instead of Google's custom one
       treat_warnings_as_errors:     false, # ignore not yet supported clang argument warnings
